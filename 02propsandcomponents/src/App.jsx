@@ -13,6 +13,8 @@ import User1 from './User1'
 import Student1 from './Student1'
 import User2 from './User2'
 import Product1 from './Product1'
+import Skills from './Skills'
+import StudentList from './StudentList'
 function Footer(){
   return (
     <div>
@@ -63,7 +65,33 @@ function App() {
           state:"Gujarat"
         }
       };
-  
+
+      const skills =[
+        "python",
+        "java",
+        "javascript",
+        "html",
+        "css",
+        "React"
+      ]
+      
+    const students = [
+    {
+      id: 1,
+      name: "Vishesh",
+      branch: "Computer Engineering"
+    },
+    {
+      id: 2,
+      name: "Rahul",
+      branch: "Mechanical Engineering"
+    },
+    {
+      id: 3,
+      name: "Amit",
+      branch: "Electrical Engineering"
+    }
+  ];
 
   return (
     <>
@@ -105,6 +133,11 @@ function App() {
             category="Electronics"
             brand="Dell"
             available={true}/>
+
+
+      <Skills skills={skills}/>
+
+      <StudentList students={students}/>
       </div>
     </>
   )
