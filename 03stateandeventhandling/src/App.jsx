@@ -13,6 +13,7 @@ import UserProfile from './UserProfile'
 import StudentProfile from './StudentProfile'
 import Skills from './Skills'
 import Likes from './Likes'
+import Counter4 from './Counter4'
 function App() {
       
     const [count,setCount]=useState(0);
@@ -44,6 +45,8 @@ function App() {
       <Skills/>
 
       <Likes/>
+
+      <Counter4/>
     </>
   )
 }
