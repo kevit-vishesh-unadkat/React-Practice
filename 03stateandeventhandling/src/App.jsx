@@ -14,6 +14,8 @@ import StudentProfile from './StudentProfile'
 import Skills from './Skills'
 import Likes from './Likes'
 import Counter4 from './Counter4'
+import HandleClick from './HandleClick'
+import Change from './Change'
 function App() {
       
     const [count,setCount]=useState(0);
@@ -47,6 +49,10 @@ function App() {
       <Likes/>
 
       <Counter4/>
+
+      <HandleClick/>
+
+      <Change/>
     </>
   )
 }
