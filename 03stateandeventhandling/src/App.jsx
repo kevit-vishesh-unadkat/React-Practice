@@ -16,6 +16,9 @@ import Likes from './Likes'
 import Counter4 from './Counter4'
 import HandleClick from './HandleClick'
 import Change from './Change'
+import Submit from './Submit'
+import Delete from './Delete'
+import Update from './Update'
 function App() {
       
     const [count,setCount]=useState(0);
@@ -53,6 +56,12 @@ function App() {
       <HandleClick/>
 
       <Change/>
+
+      <Submit/>
+
+      <Delete/>
+
+      <Update/>
     </>
   )
 }
