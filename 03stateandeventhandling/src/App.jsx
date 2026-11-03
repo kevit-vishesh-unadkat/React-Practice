@@ -9,7 +9,10 @@ import Counter1 from './Counter1'
 import Counter2 from './Counter2'
 import Child from './Child'
 import Counter3 from './Counter3'
-
+import UserProfile from './UserProfile'
+import StudentProfile from './StudentProfile'
+import Skills from './Skills'
+import Likes from './Likes'
 function App() {
       
     const [count,setCount]=useState(0);
@@ -33,6 +36,14 @@ function App() {
 
       <Counter3 value={5}/>
       <Counter3 value={10}/>
+
+      <UserProfile/>
+
+      <StudentProfile/>
+
+      <Skills/>
+
+      <Likes/>
     </>
   )
 }
