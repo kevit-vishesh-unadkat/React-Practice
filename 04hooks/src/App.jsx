@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -15,8 +15,16 @@ import { ThemeProvider } from './ThemeContext'
 import FocusInput from './FocusInput'
 import PreviousValue from './PreviousValue'
 import Timer from './Timer'
+import ProductList from './ProductList'
+import SearchProducts from './SearchProducts'
+import Child from './Child'
 function App() {
 
+  const [count , setCount]=useState(0);
+
+  const handleClick =useCallback(()=>{
+    console.log("Child Button Clicked");
+  },[]);
 
   return (
     <>
@@ -32,6 +40,20 @@ function App() {
       <PreviousValue/>
 
       <Timer/>
+
+      <ProductList/>
+
+      <SearchProducts/>
+
+      <div>
+        <h2>Count : {count}</h2>
+
+        <button onClick={()=>setCount(prev=>prev+1)}>
+          Increment
+        </button>
+
+        <Child onClick={handleClick}/>
+      </div>
     </>
   )
 }
