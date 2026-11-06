@@ -5,6 +5,9 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import RegistrationForm from './RegistrationForm'
 import ControlledInput from './ControlledInput'
+import Register from './Register'
+import Global from './Global'
+import UncontrolledForm from './UncontrolledForm'
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
     <>
       <RegistrationForm/>
       <ControlledInput/>
+      
+      
+      
     </>
   )
 }
