@@ -6,6 +6,7 @@ import App from "./App";
 import { store } from "./app/store";
 import App1 from "./App1";
 import App2 from "./App2";
+import App3 from "./App3";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <App />
       <App1/>
       <App2/>
+      <App3/>
     </Provider>
   </React.StrictMode>
 );
