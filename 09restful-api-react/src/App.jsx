@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Posts from './components/Posts'
 import Posts2 from './components/Posts2'
+import Users from './components/Users'
 function App() {
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Posts/>
       <Posts2/>
+      <Users/>
     </>
   )
 }
