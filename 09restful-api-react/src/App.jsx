@@ -4,12 +4,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Posts from './components/Posts'
+import Posts2 from './components/Posts2'
 function App() {
 
 
   return (
     <>
       <Posts/>
+      <Posts2/>
     </>
   )
 }
