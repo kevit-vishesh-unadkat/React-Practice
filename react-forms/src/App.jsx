@@ -8,6 +8,7 @@ import DropDown from './DropDown'
 import Checkbox from './CheckBox'
 import MyForm from './MyForm'
 import Uncontrolled from './Uncontrolled'
+import Register from './Register'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Checkbox/>
       <MyForm/>
       <Uncontrolled/>
+      <Register/>
     </>
   )
 }
