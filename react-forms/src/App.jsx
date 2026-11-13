@@ -7,6 +7,7 @@ import ControlledComponent from './ControlledComponent'
 import DropDown from './DropDown'
 import Checkbox from './CheckBox'
 import MyForm from './MyForm'
+import Uncontrolled from './Uncontrolled'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <DropDown/>
       <Checkbox/>
       <MyForm/>
+      <Uncontrolled/>
     </>
   )
 }
