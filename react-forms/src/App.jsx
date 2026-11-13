@@ -19,6 +19,7 @@ import Forms3 from './Forms3'
 import Errors from './Errors';
 import Service from './Service'
 import Schema from './Schema'
+import Schema1 from './Schema1'
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       <Errors/>
       <Service/>
       <Schema/>
+      <Schema1/>
     </>
   )
 }
