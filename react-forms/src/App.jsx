@@ -15,7 +15,9 @@ import Forms from './Forms'
 import Forms1 from './Forms1'
 import Forms2 from './Forms2'
 import Forms3 from './Forms3'
-
+// import Global from './Global'
+import Errors from './Errors';
+import Service from './Service'
 
 function App() {
 
@@ -34,6 +36,8 @@ function App() {
       <Forms1/>
       <Forms2/>
       <Forms3/>
+      <Errors/>
+      <Service/>
     </>
   )
 }
