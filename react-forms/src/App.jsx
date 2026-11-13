@@ -14,6 +14,7 @@ import Register2 from './Register2'
 import Forms from './Forms'
 import Forms1 from './Forms1'
 import Forms2 from './Forms2'
+import Forms3 from './Forms3'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Forms/>
       <Forms1/>
       <Forms2/>
+      <Forms3/>
     </>
   )
 }
