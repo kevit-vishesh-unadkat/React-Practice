@@ -18,6 +18,7 @@ function TransactionForm({ onAddTransaction }) {
     "Entertainment",
     "Health",
     "Salary",
+    "Bussiness",
     "Other"
   ];
 
